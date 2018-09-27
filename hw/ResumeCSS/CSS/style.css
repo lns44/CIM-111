@@ -1,0 +1,100 @@
+@import
+url(link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+font-family: 'Roboto Slab', serif;
+
+.textchange{
+  color:cyan
+  (class)
+}
+
+
+body {
+  background-color: LightCyan;
+  background-color: #33333;
+  background-color: rgb(0,0,0) ;
+  font font-family: times;
+  color: inherit;
+}
+h1 {
+  color: white;
+  background-color:LightCyan
+}
+
+h2 {
+color: white;
+background-color: white
+}
+
+a{
+  text-decoration: none;
+  color: yellow;
+  font-weight: 200;
+}
+
+a:hover {
+  color: magenta;
+ text-decoration: underline;
+}
+
+a:visited {
+  color: DodgerBlue;
+}
+
+#name{
+  text-align: center;
+  background-color: pink;
+}
+
+#address{
+  text-align: center;
+  background-color: pink;
+  text-decoration-color: white;
+}
+
+
+p{
+  line-height: 100px;
+  text-indent: 20px;
+  text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: cyan;
+}
+
+.writing {
+    color:  #99004d;
+    font-weight: bold;
+}
+
+.unorderedlist{
+  color: purple;
+  font-weight: lighter;
+}
+
+}
+
+#hobbies {
+    background-color:#ffffe6
+;
+    padding: 20px
+}
+
+ul li{
+  list-style: none;
+}
+
+#experience {
+    background-color:#ffe6ff;
+    padding: 20px
+}
+
+#academics{
+  background-color:#ffddcc;
+  text-align: center
+}
+
+.links{
+  color: cyan;
+}
