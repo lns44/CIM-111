@@ -1,44 +1,36 @@
-@import "desktop.css";
+<!DOCTYPE HTML>
 
-body{
-  background-color: green;
-}
+<html>
 
-.col{
-  width: 100%;
-  display: block;
-  margin-bottom: 20px;
-}
-
-@import "desktop.css";
-
-#grid1{
-  display: grid;
-  grid-template-areas: "col1" "col2";
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 100%;
-    text-align: center;
-}
-
-nav{
-width: 100%;
+<head>
+    <title>Our nicely designed website</title>
+    <link rel="stylesheet" href="css/desktop.css" media="only screen and (min-width: 600px)">
+    <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width: 600px)">
+<!-- Prevent smartphones from scaling pages down -->
+    <meta name="viewport" content="initial-scale=1">
 
 
-}
+    <style>
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1> Lauren Stolz</h1>
+        <nav>
+          <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="resume.html">TRAVEL</a></li>
+              <li><a href="about.html"> GALLERY</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <main></main>
+
+    <footer></footer>
+</body>
 
 
-nav ul li{
-list-style: none;
-width: 100%
-marign: auto 0;
-
-}
-
-#grid2{
-  display: grid;
-  grid-template-areas: "col3" "col4" "col5";
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 100%;
-  margin-top: 10px;
-  text-align: center;
-}
+</html>
