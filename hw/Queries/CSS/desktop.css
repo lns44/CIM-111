@@ -1,12 +1,4 @@
 
-header,footer{
-  width: 90%;
-  height: 100px;
-  background-color: #ffccff;
-  text-decoration color: black;
-  margin:auto;
-}
-
 main{
   width: 90%;
   height: 400px;
@@ -16,9 +8,9 @@ main{
 #grid1{
   display: grid;
   grid-template-areas: "col1 col2";
-    grid-template-rows: 1fr;
+  grid-template-rows: 1fr;
   grid-template-columns: 50% 50%;
-    text-align: center;
+  text-align: center;
 }
 #col1{
   grid-area: col1;

@@ -1,3 +1,24 @@
+
+#box2 {
+height: 300px;
+width: 900px;
+margin: 20px;
+margin-right: 20px
+padding: 10px;
+border: solid white 10px;
+border-radius: 10px;
+background: #e6e6ff;
+}
+
+#box3{
+background-color: white;
+width: 900px;
+height: 340px;
+padding: 10px;
+margin-left: 20px;
+margin-top: 0px;
+}
+
 h2 {
   margin-left: 35px;
   color: purple;
@@ -42,7 +63,6 @@ footer{
   height: 132px;
   margin: 0 auto;
   margin-top: -20px;
-  text: "hey"
 }
 
 nav{
@@ -86,3 +106,12 @@ div.a {
 img{
   float: left;
 }
+
+.columns{
+  column align-items: center;
+  width: 220px;
+  height: 340px;
+  background-color: #e6e6ff;
+  display: inline-block;
+  margin-right: 15px;
+  margin: 0 auto;}
