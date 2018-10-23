@@ -1,0 +1,143 @@
+
+address{
+  font-size: 12px;
+  text-align: center;}
+
+header{
+  background-color: #e6e6ff;
+  width: 960px;
+  height: 280px;
+  margin: 0 auto;
+  margin-top: -10px;}
+
+h1{
+  display: inline-block;
+  text-align: center;
+  font-size: 52px;
+  margin-bottom: 15px;}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-family: times;
+  margin-left: 0 auto;
+  background-color: white;
+  height: 75px;}
+
+h3{
+  font-weight: lighter;
+  margin-left: 35px;
+  margin-right: 35px;
+  color: black;
+  font-size: 22px;}
+
+  h4{
+    font-size: 15px;
+    text-align: center;
+    color: black;}
+
+main{
+  background-color: white;
+  width: 960px;
+  height: auto;
+  text-decoration color: black;
+  border-color: #e6ffff;
+  margin: 0 auto;
+  margin-top: -20px;}
+
+footer{
+  background-color:#e6e6ff;
+  width: 960px;
+  height: 220px;
+  margin: 0 auto;
+  margin-top: -20px;}
+
+  a:visited{
+    color: black;}
+
+  a:hover{
+    color: pink;}
+
+  #grid2{
+    display: grid;
+    grid-template-areas: "col3 col4 col5";
+    grid-template-rows: 1fr;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 960px;}
+
+
+    #grid3{
+      display: grid;
+      grid-template-areas: "col9 col10 col11";
+      grid-template-rows: 1fr;
+      grid-template-columns: 33.3% 33.3% 33.3%;
+      text-align: center;
+      margin: 0 auto;
+      max-width: 960px;}
+
+#col9, #col11{
+grid-area: col3, col5, col7;
+background-color: white;
+height: 35px;
+column width: 960px;
+overflow:hidden.}
+
+
+#col10,{
+grid-area: col4, col6, col8;
+background-color: white;
+height: 35px;
+column-width: 960px;
+overflow:hidden.}
+
+
+#col3, #col5, #col7{
+  grid-area: col3, col5, col7;
+  background-color: #e6e6ff;
+  height: 35px;
+  column width: 960px;}
+
+#col4, #col6, #col8{
+  grid-area: col4, col6, col8;
+  background-color: #ffe6f2;
+  height: 35px;
+  column-width: 960px;}
+
+
+  nav{
+    background-color: white;
+    width: 960px;
+    margin: 0 auto;
+    height: 50px;
+    float: left;}
+
+  nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;}
+
+  nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;}
+
+  nav ul li a:hover{
+    color: pink;}
+
+.images{
+  height: 50px;
+  margin: 10px auto;
+  width: 0 auto;}
+
+  .img-container {
+      width: 300;
+      height: 200px;
+      display: inline-block;
+      overflow: hidden;}
+
+  .img-container img {
+      width: 100%;
+  }
