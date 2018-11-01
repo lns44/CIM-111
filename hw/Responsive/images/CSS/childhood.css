@@ -1,6 +1,16 @@
 
-div.a {
-    text-align: center;}
+
+    address{
+      font-size: 12px;
+      text-align: center;}
+
+    header{
+      background-color: #e6e6ff;
+      width: 960px;
+      height: 280px;
+      margin: 0 auto;
+      margin-top: -10px;}
+
 
 h1{
   display: inline-block;
@@ -97,7 +107,7 @@ margin-right: 15px;
 }
 
 #box3 {
-height: 665px;
+height: 645px;
 width: 932px;
 padding: 10px;
 border: solid #ffe6ff 5px;
