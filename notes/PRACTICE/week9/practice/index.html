@@ -1,56 +1,23 @@
 <!doctype html>
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+<html>
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Lettering.js Examples</title>
-  <meta name="description" content="A jQuery Plugin that allows you to style each individual letter and more.">
-  <meta name="author" content="Dave Rupert">
+  <title> How To Prepare Acorn Squash </title>
+  <meta name="description" content="Step-by-step instructions about how to cook a lobster tail">
+  <meta name="author" content="Lauren Stolz">
 
   <meta name="viewport" content="width=device-width; initial-scale=1.0">
 	<link rel="stylesheet" href="style.css" type="text/css" media="screen"></link>
 
 	<style type="text/css" media="screen">
-		.demo {
-			padding: 50px;
-			border:1px solid #ccc;
-			font-weight:bold;
-			color: red;
-			background:#d0d0d0;
-			font-size:20px;
-			line-height:1.5;
-			text-align:center;
-		}
 
-		.demo h1 { font-size:72px;  text-transform:uppercase; margin-bottom:0px;}
-		.char2,
-		#demo2 .word2,
-		.line2 { color: orange; }
-		.char3,
-		.word3,
-		.line3 { color: yellow; }
-		.char4,
-		.line4 { color: blue; }
-		.char5 { color: green; }
-		.char6 { color: indigo; }
-		.char7 { color: violet; }
-	</style>
+  </style>
+
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-  <script src="../jquery.lettering.js"></script>
-  <script>
-  	$(document).ready(function() {
-			$("#demo1 h1").lettering();
-			$("#demo2 h1").lettering('words');
-			$("#demo3 p").lettering('lines');
-			$("#demo4 h1").lettering('words').children("span").lettering();
-			$("#demo5 h1").lettering().children("span").css({'display':'inline-block', '-webkit-transform':'rotate(-25deg)'});
-		});
+  <script src="jquery-33.1.min.js"></script>
+
   </script>
 
 </head>
@@ -59,77 +26,148 @@
 
   <div id="container">
     <header>
-			<h1 id="thebrand">Lettering.JS</h1>
-			<p>The following are some hokey examples of how you can implement LETTERING.JS.
+			<h1> How to Prepare A Lobster Tail</h1>
+			<h3 align="center"> Welcome to my step-by-step guide on how to prepare a Spiny Lobster tail! </h3>
     </header>
+  <br>
 
-    <article id="main">
-			<section id='lettering-demo'>
-				<h2>Letters</h2>
-				<h4>The HTML</h4>
-<pre><code>	&lt;div id=&quot;demo1&quot; class=&quot;demo&quot;&gt;
-&nbsp;&nbsp;&lt;h1&gt;Rainbow&lt;/h1&gt;
-&lt;/div&gt;
-</code></pre>
+			<section id='step1'>
+				<h2>Step 1: </h2>
+        <br>
 
-<h4>The jQuery</h4>
-<pre><code>$(document).ready(function() {
-&nbsp;&nbsp;$("#demo1 h1").lettering();
+        <img src="boil.jpg"class="center"; width="200"; >
+        <h4 id="info1"> Mouse over to see instructions</h4>
+        <div id="recepticle1"> </div>
+      </section>
+
+      <section id='step2'>
+        <h2>Step 2: </h2>
+        <br>
+        <img src="salt.jpg" class="center"; width="200"; >
+        <h4 id="info2"> Mouse over to see instructions</h4>
+        <div id="recepticle2"> </div>
+      </section>
+
+        <section id='step3'>
+          <h2>Step 3: </h2>
+          <br>
+        <img src="add.JPG" class="center"; width="200";>
+          <h4 id="info3"> Mouse over to see instructions</h4>
+          <div id="recepticle3"> </div>
+        </section>
+
+        <section id='step4'>
+          <h2>Step 4: </h2>
+          <br>
+        <img src="strain.JPG" class="center"; width="200";>
+          <h4 id="info4"> Mouse over to see instructions</h4>
+          <div id="recepticle4"> </div>
+        </section>
+
+        <section id='step5'>
+          <h2>Step 5: </h2>
+          <bR>
+        <img src="ice.JPG"class="center"; width="200"; >
+          <h4 id="info5"> Mouse over to see instructions</h4>
+          <div id="recepticle5"> </div>
+        </section>
+
+        <section id='step6'>
+          <h2>Step 6: </h2>
+          <br>
+        <img src="final.PNG"class="center"; width="200";>
+          <h4 id="info6"> Mouse over to see instructions</h4>
+          <div id="recepticle6"> </div>
+        </section>
+
+    <button id="showr">Hide</button>
+    <button id="hidr"> Reveal </button>
+  <div2> Stay tuned for new recpies coming soon!! </div2>
+<br> <br> <br>
+
+    <h3 id="changeText">red background</h3>
+
+</section>
+
+
+<script>
+
+$("#info1").mouseenter(function(){
+  $("#recepticle1").html("<b> 1) First, you are going to want to get a large pot, fill it up with water, and bring it to a boil </b>");
+  $("#info1").css("background-color", "#ccb3ff");
 });
-</code></pre>
+$("#info1").mouseleave(function(){
+  $("#recepticle1").html("");
+  $("#info1").css("background-color", "transparent");
+});
 
-				<h4>The Result</h4>
-				<div id="demo1" class="demo">
-					<h1>Rainbow</h1>
-				</div>
 
-			</section>
+$("#info2").mouseenter(function(){
+  $("#recepticle2").html("<b> 2) Secondly, you are going to want to reduce heat to a soft boil and add Maine sea salt. </b>");
+  $("#info2").css("background-color", "#ccb3ff");
+});
+$("#info2").mouseleave(function(){
+  $("#recepticle2").html("");
+  $("#info2").css("background-color", "transparent");
+});
 
-			<section id='words-demo'>
-				<h2>Words</h2>
-				<code><pre>$("#demo2 h1").lettering('words');</pre></code>
+$("#info3").mouseenter(function(){
+  $("#recepticle3").html("<b> 3) Next, drop the tails in one at a time and set your kitchen timer for 3 mins for each tail you have</b>");
+  $("#info3").css("background-color", "#ccb3ff");
+});
+$("#info3").mouseleave(function(){
+  $("#recepticle3").html("");
+  $("#info3").css("background-color", "transparent");
+});
 
-			<h4>The Result</h4>
-				<div id="demo2" class="demo">
-					<h1>Hi, Multi Color</h1>
-				</div>
-			</section>
+$("#info4").mouseenter(function(){
+  $("#recepticle4").html("<b> 4) Next, use metal tongs, gloves, or a strainer to get the hot tails out of the boiling water. </b>");
+  $("#info4").css("background-color", "#ccb3ff");
+});
+$("#info4").mouseleave(function(){
+  $("#recepticle4").html("");
+  $("#info4").css("background-color", "transparent");
+});
 
-			<section id='lines-demo'>
-				<h2>Lines</h2>
-				<code><pre>$("#demo3 p").lettering('lines');</pre></code>
+$("#info5").mouseenter(function(){
+  $("#recepticle5").html("<b> 5) Next, cool the cooked lobster tails right away with fresh water and ice to keep them from over cooking. </b>");
+  $("#info5").css("background-color", "#ccb3ff");
+});
+$("#info5").mouseleave(function(){
+  $("#recepticle5").html("");
+  $("#info5").css("background-color", "transparent");
+});
 
-			<h4>The Result</h4>
-				<div id="demo3" class="demo">
-					<p>This is an amazing<br/> Revolution in Typography. <br/> The possibilities are endless: <br/> Coloring, Vertical spacing, and Kerning.</p>
-				</div>
-			</section>
+$("#info6").mouseenter(function(){
+  $("#recepticle6").html("<b> 6) Serve and enjoy! </b>");
+  $("#info6").css("background-color", "#ccb3ff");
+});
+$("#info6").mouseleave(function(){
+  $("#recepticle6").html("");
+  $("#info6").css("background-color", "transparent");
+});
+      $(document).ready(function(){
+          $("final.PNG").hide();
+          $("h1").css("color", "purple");
+          $("#changeText").css("font-size", "30px");
+          $("#changeText").html("Click here to turn the background red like a lobster!");
+          $("#changeText").click(function(){
+            $("body").css("background-color", "red");
+          });    });
 
-			<section id='advanced1-demo'>
-				<h2>Advanced #1: Chaining 2 Methods</h2>
-<code><pre>$("#demo4 h1").lettering('words').children("span").lettering();</pre></code>
-			<h4>The Result</h4>
-				<div id="demo4" class="demo">
-					<h1>Double Rainbow</h1>
-				</div>
-			</section>
 
-			<section id='advanced2-demo'>
-				<h2>Advanced #2: Chaining and Styling</h2>
-<code><pre>$("#demo5 h1").lettering()
-	.children("span").css({'display':'inline-block', '-webkit-transform':'rotate(-25deg)'});</pre></code>
-			<h4>The Result</h4>
-				<div id="demo5" class="demo">
-					<h1>WOOOoo!</h1>
-				</div>
-			</section>
+          $( "#showr" ).click(function() {
+            $( "div2" ).first().hide( "fast", function showNext() {
+              $( this ).next( "div2" ).hide( "fast", showNext );
+            });
+          });
 
-    </article>
+          $( "#hidr" ).click(function() {
+            $( "div2" ).show( 1000 );
+          });
 
-    <footer>
-			<p>&copy;2010 Dave Rupert <a href="http://daverupert.com">http://daverupert.com</a>
-    </footer>
-  </div>
+  </script>
+
 
 </body>
 </html>
