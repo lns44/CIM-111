@@ -1,0 +1,16 @@
+{
+  "name": "simple-jquery-slider",
+  "repo": "dirkgroenen/simple-jQuery-slider",
+  "description": "A simple slider that does what a simple slider has to do: slide slides!",
+  "keywords": [
+    "css3",
+    "slideshow",
+    "slider",
+    "simple"
+  ],
+  "version": "2.6.5",
+  "main": "dist/jquery.simpleslider.min.js",
+  "dependencies": {
+    "jquery": "*"
+  }
+}
