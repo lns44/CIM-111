@@ -22,7 +22,7 @@ body.hidden{
 h1 {
 	font-family: Helvetica, Arial, Verdana;
 	font-weight:normal;
-	font-size:92px;
+	font-size:88px;
 	color:#222222;
 }
 
@@ -78,7 +78,7 @@ header#top #logo{
 
 .pagewrap .copy a,.pagewrap .copy a:hover{
 	color: white;
-} 
+}
 
 .pageblock#fullscreen{
 	height: 100%;
