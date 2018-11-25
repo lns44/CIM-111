@@ -53,8 +53,9 @@ $(document).ready(function(){
 
     $(".slide#first").backstretch("images/bg1.jpg");
     $(".slide#sec").backstretch("images/bg2.jpg");
-    $(".slide#thirth").backstretch("images/bg4.jpg");
-    $(".slide#fourth").backstretch("images/bg5.jpg");
+    $(".slide#thirth").backstretch("images/bg3.jpg");
+    $(".slide#fourth").backstretch("images/bg4.jpg");
+      $(".slide#fourth").backstretch("images/bg5.jpg");
 
     $('.slide .backstretch img').on('dragstart', function(event) { event.preventDefault(); });
 
