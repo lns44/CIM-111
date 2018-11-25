@@ -12,7 +12,7 @@ Modern browsers such as Chrome, Firefox, and Safari on both desktop and smartpho
 
 ## Basic Usage
 
-With this plugin, you can create a beautiful scrolling effect and turn a simple layout website into something surprising. 
+With this plugin, you can create a beautiful scrolling effect and turn a simple layout website into something surprising.
 
 To do this, first you have to include the latest jQuery library together with `jquery.tiltedpage_scroll.js` and `tiltedpage_scroll.css` into your document's `<head>`. Now lay out your HTML markup as follows:
 
@@ -43,10 +43,3 @@ That's it for the HTML part. Isn't that easy? Now, you can just call the functio
     outAnimation: true                 // In case you do not want the out animation, you can toggle this to false. The defaul value is true.
   });
 ````
-
-Now you will have another cool way to showcase your website to your viewers. I hope you find this free plugin useful.
-
-If you want to see more of my plugins, visit [The Pete Design](http://www.thepetedesign.com/#design), or follow me on [Twitter](http://www.twitter.com/peachananr) and [Github](http://www.github.com/peachananr).
-
-## Other Resources
-- Tutorial (Coming Soon)
