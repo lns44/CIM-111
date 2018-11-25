@@ -56,6 +56,7 @@ $(document).ready(function(){
     $(".slide#thirth").backstretch("images/bg3.jpg");
     $(".slide#fourth").backstretch("images/bg4.jpg");
     $(".slide#fifth").backstretch("images/bg5.jpg");
+    $(".slide#sixth").backstretch("images/bg6.jpg");
 
     $('.slide .backstretch img').on('dragstart', function(event) { event.preventDefault(); });
 
