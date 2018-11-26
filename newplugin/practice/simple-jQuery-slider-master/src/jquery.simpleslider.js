@@ -34,7 +34,7 @@
             slideOnInterval: true,
             interval: 5000,
             swipe: true,
-            magneticSwipe: true, 
+            magneticSwipe: true,
             transition: "slide",
             animateDuration: 1000,
             animationEasing: 'ease',
@@ -66,7 +66,7 @@
             $(options.slidesContainer).wrapInner("<div class='" + movecontainerclass + "' style='position:absolute;width:100%;height:100%;'></div>");
             movecontainer = "." + movecontainerclass;
 
-            if(options.neverEnding){  
+            if(options.neverEnding){
                 if ($.support.transition && jQuery().transition)
                     $(movecontainer).stop().css({x: '-100%'});
                 else
@@ -81,13 +81,13 @@
             if(options.neverEnding){
                 var $first = $(options.slidesContainer).find(options.slides).first().clone(true, true);
                 var $last = $(options.slidesContainer).find(options.slides).last().clone(true, true);
-                
+
                 $(movecontainer).prepend($last);
                 $(movecontainer).append($first);
             }
 
             var cacheWidth = 0;
-          
+
             // Add default positioning css when enabled
             if(options.useDefaultCSS){
                 $(options.slidesContainer).css({
@@ -204,7 +204,7 @@
                 $(options.slidesContainer).on(touchstartEvent + " mousedown", function(e){
                     // Set isDragging on true
                     isDragging = true;
-                    
+
                     // Save start coordinates
                     startPosition = {
                         x: (e.pageX !== undefined) ? e.pageX : e.originalEvent.touches[0].pageX,
@@ -240,7 +240,7 @@
                         // Check if magnetic swipe is on
                         if(options.magneticSwipe){
                             // Move slides
-                            obj.manualSlide(percentageMove);    
+                            obj.manualSlide(percentageMove);
                         }
                     }
                 });
@@ -253,7 +253,7 @@
                     if(percentageMove > 25 && (obj.currentSlide < (obj.totalSlides - 1) || options.neverEnding))
                         obj.nextSlide();
                     else if(percentageMove < -25 && (obj.currentSlide > 0 || options.neverEnding))
-                        obj.prevSlide();    
+                        obj.prevSlide();
                     else
                         obj.resetSlides();
 
@@ -263,7 +263,7 @@
                     $(options.slidesContainer).css('cursor','grab');
                 });
             }
-            
+
             // Add on init event
             $(element).trigger({
                 type: "init",
@@ -274,13 +274,13 @@
         // Bind the function that recalculates the width of each slide on a resize.
         $(window).resize(function(){
             var cacheWidth = 0;
-        
+
             $(options.slidesContainer).find(options.slides).each(function(index){
                 // Reset width; otherwise it will keep the same width as before
                 $(this).css('width','');
-                
+
                 cacheWidth = ($(this).outerWidth() > cacheWidth) ? $(this).outerWidth() : cacheWidth;
-                
+
                 if(options.transition == "fade")
                     $(this).css({width: cacheWidth});
                 else
@@ -303,7 +303,7 @@
          *
          * @param int percentage
          */
-        obj.manualSlide = function(percentage){ 
+        obj.manualSlide = function(percentage){
             // Move the slides based on the calculated percentage
             if(options.transition == "slide"){
                 // Remove the previous transition effect
@@ -314,7 +314,7 @@
 
                 var movepercentage = -((obj.currentSlide * 100) + percentage);
 
-                if(options.neverEnding)  
+                if(options.neverEnding)
                     movepercentage = -(((obj.currentSlide + 1) * 100) + percentage);
 
                 if ($.support.transition && jQuery().transition)
@@ -328,10 +328,10 @@
          * Reset slides to their given position. Used after a manualSlide action
          */
         obj.resetSlides = function(){
-            if(options.transition == "slide"){       
+            if(options.transition == "slide"){
                 var movepercentage = (options.neverEnding) ? -((obj.currentSlide + 1) * 100) : -(obj.currentSlide * 100);
 
-                if ($.support.transition && jQuery().transition)             
+                if ($.support.transition && jQuery().transition)
                     $(movecontainer).stop().transition({x: movepercentage + '%'}, options.animateDuration, options.animationEasing);
                 else
                     $(movecontainer).stop().animate({left: movepercentage + '%'}, options.animateDuration);
@@ -348,7 +348,7 @@
 
         /*
          * Go to a next slide (function is also used for the previous slide and goto slide functions).
-         * If a paramater is given it will go to the given slide  
+         * If a paramater is given it will go to the given slide
          *
          * @param1 int slide
          */
@@ -359,7 +359,7 @@
 
             // Auto define the next slide
             if(slide === undefined)
-                obj.currentSlide = (obj.currentSlide < (obj.totalSlides-1)) ? obj.currentSlide += 1 : 0 ;    
+                obj.currentSlide = (obj.currentSlide < (obj.totalSlides-1)) ? obj.currentSlide += 1 : 0 ;
             else
                 obj.currentSlide = slide;
 
@@ -375,7 +375,7 @@
             if(beforeSlidingEvent.isDefaultPrevented()){
                 obj.currentSlide = prevSlide;
                 return false;
-            }                
+            }
 
             // Calculate the move percentage
             var movepercentage = -(obj.currentSlide * 100);
@@ -392,8 +392,8 @@
                 }
             }
 
-            // Move the container 
-            if(options.transition == "slide"){                    
+            // Move the container
+            if(options.transition == "slide"){
                 if ($.support.transition && jQuery().transition)
                     $(movecontainer).stop().transition({x: movepercentage + '%'}, options.animateDuration, options.animationEasing);
                 else
@@ -451,15 +451,15 @@
                                 $(movecontainer).css({left: "-100%"});
                         }
                     }
-                    
-                   
+
+
                     // Trigger event
                     var afterSlidingEvent = jQuery.Event("afterSliding", {
                         prevSlide: prevSlide,
                         newSlide: obj.currentSlide
                     });
                     $(element).trigger(afterSlidingEvent);
-                    
+
                     slided = true;
                 }
             }
@@ -500,5 +500,9 @@
             element.data('simpleslider', simpleslider);
         });
     };
+
+    $(document).ready(function(){
+	$(".slider").simpleSlider();
+});
 
 })(jQuery);
