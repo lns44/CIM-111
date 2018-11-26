@@ -51,12 +51,12 @@ $(document).ready(function(){
         }
     });
 
-    $(".slide#first").backstretch("images/bg1.jpg");
-    $(".slide#sec").backstretch("images/bg2.jpg");
-    $(".slide#thirth").backstretch("images/bg3.jpg");
-    $(".slide#fourth").backstretch("images/bg4.jpg");
-    $(".slide#fifth").backstretch("images/bg5.jpg");
-    $(".slide#sixth").backstretch("images/bg6.jpg");
+    $(".slide#first").backstretch("demo/images/bg1.jpg");
+    $(".slide#sec").backstretch("demo/images/bg2.jpg");
+    $(".slide#thirth").backstretch("demo/images/bg3.jpg");
+    $(".slide#fourth").backstretch("demo/images/bg4.jpg");
+    $(".slide#fifth").backstretch("demo/images/bg5.jpg");
+    $(".slide#sixth").backstretch("demo/images/bg6.jpg");
 
     $('.slide .backstretch img').on('dragstart', function(event) { event.preventDefault(); });
 
