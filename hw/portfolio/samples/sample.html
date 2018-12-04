@@ -8,23 +8,23 @@
 		  <meta charset="utf-8">
 			<meta name="title" content="jQuery One Page Scroll by Pete R. | The Pete Design" />
 			<meta name="description" content="Create a beautiful 3D tilted effect on scroll with jQuery Tilted Page Scroll plugin by Pete Rojwongsuriya" />
-			<link rel="image_src" href="/images/tiltedpage_scroll_image.png" />
+			<link rel="image_src" href="/images/tiltedpage_scroll_image.png"/>
 
 			<meta content="http://www.thepetedesign.com/demos/tiltedpage_scroll_demo.html" property="og:url" />
 			<meta content="http://www.thepetedesign.com/images/tiltedpage_scroll_image.png" property="og:image" />
 			<link rel="shortcut icon" id="favicon" href="favicon.png">
-			<meta name="author" content="Pete R.">
+	<link href='tiltedpage_scroll.css' rel='stylesheet' type='text/css'>
+			<link rel="stylesheet" href="style.css" media="only screen and (min-width: 599px)">
+
+			<meta name="author" content="Lauren">
 			<link rel="canonical" href="http://www.thepetedesign.com/demos/tiltedpage_scroll_demo.html" />
-			<link href='http://fonts.googleapis.com/css?family=Noto+Serif:400italic' rel='stylesheet' type='text/css'>
-			<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
-			<link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
+
 				<script src="jquery-3.3.1.min.js"> </script>
 				<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
 				<script type="text/javascript" src="jquery.tiltedpage_scroll.js"></script>
-				<link href='tiltedpage_scroll.css' rel='stylesheet' type='text/css'>
 
-		  <link rel="stylesheet" href="portfolio/CSS/about.css" media="only screen and (min-width: 599px)">
-		  <link rel="stylesheet" href="portfolio/CSS/style.css" media="only screen and (max-width: 599px)">
+
+
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
@@ -35,26 +35,18 @@
 	height: 100%;
 	margin: 0 auto;
 	overflow: hidden;}
+}
 
-			}
-			pre {
-				margin: 80px auto;
-			}
-			pre code {
-				padding: 35px;
-				border-radius: 5px;
-				font-size: 15px;
-				background: rgba(0,0,0,0.1);
-				border: rgba(0,0,0,0.05) 5px solid;
-				max-width: 500px;
-			}
+.container{
+image-orientation: center;
+align-items: center;
+}
 
-				.panorama {
-					width: 100%;
-					float: left;
-					margin-top: -5px;
-					height: 700px;
-				}
+	.panorama {
+	width: 100%;
+	float: left;
+	margin-top: -5px;
+	height: 700px;}
 
 		    .panorama {
 					background: rgba(0,0,0,0.2);
@@ -98,22 +90,19 @@
 					-webkit-box-sizing: border-box;
 					-moz-box-sizing: border-box;
 					left: 0;
-					font-weight: bold;
-					text-transform: uppercase;
-					letter-spacing: 4px;
-					font-size: 20px;
-					font-size: 14px;
 					line-height: 190%;
 				}
 
 				.tps-section .tps-wrapper h1 a small{
 					text-transform: none;
 					font-style: italic;
-					font-weight: 400;
+					font-weight: 10;
 					font-family: noto serif;
 					letter-spacing: 1px;
-					font-size: 14px;
+					font-size: 10px;
 				}
+
+
 
 				.tps-section:nth-child(1n+1) .tps-wrapper {
 					background: url(demo1.jpg) center center;
@@ -145,7 +134,37 @@
 		      clear: both;
 		    }
 
-			</style>
+
+				.main h1 {
+					padding:10px;
+					margin: 0;
+					letter-spacing: -1px;
+					text-transform: capitalize;
+			}
+
+
+			address{
+			      font-size: 12px;
+			      text-align: center;}
+
+			    header{
+			      background-color: #e6e6ff;
+			      width: 960px;
+			      height: 280px;
+			      margin: 0 auto;
+			      margin-top: -10px;}
+
+						body {
+							padding: 10px;
+							align-items:center;
+
+							margin: auto;
+							height: 100%;
+							width:940px;
+						}
+
+
+	</style>
 
 
 			<script>
@@ -159,8 +178,6 @@
 		    <link rel="stylesheet" href="../css/demo.css">
 		    <script src="../js/demo.js"></script>
 
-
-
 		</head>
 
 		<body>
@@ -170,21 +187,20 @@
 		  <div style="text-align:center">
 		    <nav>
 		        <ul>
-		            <li><a href="portfolio/index.html">HOME</a></li>
+		            <li><a href="index.html">HOME</a></li>
 		            <li><a href="portfolio/about.html"> ABOUT ME </a> </li>
-		            <li><a href="portfolio/experience.html"> EXPERIENCE </a> </li>
+		            <li><a href="experience.html"> EXPERIENCE </a> </li>
 		            <li><a href="samples/sample.html"> WORK SAMPLES </a></li>
-		            <li><a href="portfolio/resume.html"> RESUME </a> </li>
+		            <li><a href="resume.html"> RESUME </a> </li>
 		            </ul>
 		    </nav>
 		<br>
 		<br>
 
-		<h1> Sample Work </h1>
-		<p style="font-size:20px;"> Some of My Sample Work </p>
+		<h1> SAMPLE WORK </h1>
+		<p style="font-size:20px;"> A gallery of some of my work </p>
 		</div>
-		</header>
-
+	</header>
 		<br>
 		<br>
 
@@ -206,33 +222,42 @@
 			<div id="container">
 			<div class="main">
 	    <div class="header">
-
-
-        <h1> Travel Folder</h1>
-
-        <h2> Next travel destination: South Africa </h2> <br>
-        <p style="font-family:'Open Sans'; font-size:14px ;"> South Africa is a place I have never been yet have it on the top of my travel priority list. This diverse country has such a unique culture that I have only had the chance to read or hear about. With such unique cuisine, history, wildlife, architecture and hiking trails, I am eager to go experience their culture for myself. South Africa is known as “Sunny South Africa” due to its temperate climate. This makes it an ideal home for exotic tundra animals and perfect conditions to go hiking or scuba diving. In my blog I am going to my list of 5 the top sightseeing areas in South Africa. <p> <a href="http://country.southafrica.net/country/us/en/top10/entry/top-10-attractions-enus"> South Africa Tourism </a>
+<br>
+        <p style="font-family:'Open Sans'; font-size:14px ;"> As a student at the University of Miami, I have taken many classes that reflect my competence in the professional world. Below are some of my highlight pieces I have created over the years.  <p> <a href="https://www.linkedin.com/in/lauren-stolz-62366013a/"> Click here to be directed to my LinkedIn. </a>
 </div>
+
 			<section class="page1">
-        <div class="page_container">
-          <h1> <img src="demo1.jpg">
-			<small> Safari </small> </a></h1>
-        </div>
-      </section>
+				<div class="page_container">
+					<h1><img src="demo1.jpg"> </a></h1> </div> </section>
+						<br>
+		<font size="4.5"> Photoshop Travel Flyer Assignment: Singapore </font>
+
+
  <br> <br> <br> <br>  <br>  <br> <br>
-	<h4> Some of the world's best rated Safari locations are located in South Africa. Some being Kruger National Park, and Sabi Sabi Game and Reserve </h4>
+	<h4> For this assignment I took the most iconic images that represent Singapore compiled them into a single poster. This poster serves as an advertisment for all the key charatcretics of the country.</h4>
 <a href="https://www.travelandleisure.com/worlds-best/safari-lodges-in-africa"> -Travel & Lesuire </a>
 
 
   	  <section class="page2">
         <div class="page_container">
-          <h1><img src="demo2.jpg"; width="700" height="auto 0">
+          <h1><img src="demo2.jpg"> </a></h1> </div> </section>
 						<br>
-						<small> Cape Town </small> </a></h1>
-					</div> </section>
+		<font size="4.5"> Photoshop Travel Flyer Assignment: Shanghai </font>
  <br> <br> <br> <br> <br>
- 			<h4> Cape Town and the Cape Peninsula up to Cape Point, are famous for scenic beauty; celebrity beaches; Table Mountain; whale-watching; world-class shopping, nightlife, food & wine; and a laid-back atmosphere. </h4>
+ 			<h4> For this assignment I took the most iconic images that represent Shanghai compiled them into a single poster. This poster serves as an advertisment for all the key charatcretics of the country. </h4>
 <a href="http://country.southafrica.net/country/us/en/top10/entry/top-10-attractions-enus"> -South Africa Tourism </a>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   	  <section class="page3">
