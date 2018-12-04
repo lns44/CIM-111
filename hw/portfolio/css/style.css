@@ -1,0 +1,154 @@
+#box1 {
+height: 159px;
+width: 940px;
+margin-right: 20px;
+padding: 10px;
+border: solid white 5px;
+background: #e6ffff;
+border-radius: 10px;
+margin: 0 auto;
+margin-top: -10px;
+margin-bottom: -10px;
+}
+
+#box2 {
+height: 300px;
+width: 940px;
+margin-right: 20px
+padding: 10px;
+border: solid #e6ffff 10px;
+border-radius: 10px;
+background: white;
+margin: 0 auto;
+margin-top: -10px;
+}
+
+#box3{
+background-color: #e6ffff;
+width: 940px;
+height: 420px;
+padding: 10px;
+margin-right:20px;
+margin: 0 auto;
+margin-top: -10px;
+border-radius: 10px;
+}
+
+h2 {
+  font-weight: lighter ;
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  font-family: times;
+  margin-left: 0 auto;
+}
+
+a, u {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:visited{
+  color: black;
+}
+
+a:hover{
+  color: pink;
+}
+
+
+h3{
+  margin-left: 35px;
+  margin-right: 35px;
+  color: black;
+  font-size: 15px;
+}
+
+address{
+  font-size: 12px;
+  text-align: center;
+}
+
+header{
+  background-color: #e6e6ff;
+  width: 960px;
+  height: 280px;
+  margin: 0 auto;
+  margin-top: -10px;
+}
+
+main{
+  background-color: white;
+  width: 960px;
+  height: auto;
+  text-decoration color: black;
+  border-color: #e6ffff;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+footer{
+  background-color:#e6e6ff;
+  width: 960px;
+  height: 220px;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+nav{
+  background-color: white;
+  width: 960px;
+  margin: 0 auto;
+  height: 50px;
+  float: left;
+}
+
+
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+nav ul li a:hover{
+  color: pink;
+}
+
+h1{
+  display: inline-block;
+  text-align: center;
+  font-size: 52px;
+  margin-bottom: 15px;
+}
+
+
+h4{
+  font-size: 15px;
+  text-align: center;
+  color: black;
+}
+
+div.a {
+    text-align: center;
+}
+
+img{
+  float: left;
+}
+
+.columns{
+  column align-items: center;
+  width: 232px;
+  height: 360px;
+  background-color: white;
+  display: inline-block;
+  margin-right: 15px;
+  margin: 0 auto;
+}
