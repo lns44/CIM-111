@@ -12,8 +12,8 @@ margin-bottom: -10px;
 }
 
 #box2 {
-height: 300px;
-width: 940px;
+height: auto;
+width: 80%;
 margin-right: 20px
 padding: 10px;
 border: solid #e6ffff 10px;
@@ -25,8 +25,8 @@ margin-top: -10px;
 
 #box3{
 background-color: #e6ffff;
-width: 940px;
-height: 420px;
+width: 80%;
+height: auto;
 padding: 10px;
 margin-right:20px;
 margin: 0 auto;
