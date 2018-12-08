@@ -109,7 +109,6 @@ color: black;
 text-align: center;
 font-size: 18px;
 font-family: times;
-
 width: 75%;
  }
 
@@ -131,10 +130,9 @@ a:visited{
 a:hover{
   color: pink;}
 
-  #col1, #col2, #col3{
+   #col2, #col3{
   background-color: white;
-  height:auto;
-}
+  height:auto;}
 
   #grid2{
     display: grid;
