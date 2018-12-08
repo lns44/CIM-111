@@ -53,23 +53,20 @@ h2 {
     font-family: times;}
 
 h3{
-    margin-left: 35px;
-    margin-right: 35px;
-    color: black;
-    font-size: 15px;}
-
-h4{
-    font-size: 15px;
-    text-align: center;
-    color: black;
-    padding-top: 10px;
-    margin: 0 auto;}
+  font-weight: lighter ;
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  font-family: times;}
 
 p{
     text-align: center;
-    padding: 18px;
+    padding: 15px;
+    padding-bottom: 15px;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: times;
   }
 
 #headerBot{
@@ -92,32 +89,30 @@ address{
   margin: 0 auto;
   padding-top: 25px;}
 
-  .columns{
-    align-items: center;
-    height: auto;
-    display:inline-block;
-    margin: 0 auto;
-  }
+.columns{
+  align-items: center;
+  height: auto;
+  display:inline-block;
+  margin: 0 auto;}
 
 #box1 {
 height: 0 auto;
 margin: 0 auto;
 text-align: center;
-background: #e6e6ff;
+background: white;
 font-weight: lighter ;
 color: black;
 text-align: center;
 font-size: 18px;
 font-family: times;
 width: 75%;
- }
-
+margin-bottom: 5px;}
 
 img{
-  padding-left: 10px;
-  padding-right: 10px;}
+  padding-right: 10px;
+  float: left;}
 
-a, u {
+a {
     text-decoration: none;
     font-size: 14px;}
 
@@ -130,15 +125,14 @@ a:visited{
 a:hover{
   color: pink;}
 
-   #col2, #col3{
-  background-color: white;
-  height:auto;}
 
-  #grid2{
-    display: grid;
-    grid-template-areas: "col1 col2 col3";
-    grid-template-columns: 33% 33% 33%;
-    text-align: center;
-    margin: auto;
-    width: 75%;
+#box2 {
+height: auto;
+width: 74%;
+padding: -5px;
+border: solid #cce6ff 7px;
+border-radius: 2px;
+background: white;
+margin: 0 auto;
+border-style: double;
 }
