@@ -1,13 +1,12 @@
 
 header{
-  height: 280px;
+  height: 250px;
   margin: 0 auto;
 text-align: center;}
 
 main{
     background-color: white;
     height: 600px;
-    width: 80%;
     margin:auto;
     text-decoration color: black;
     margin: 0 auto;}
@@ -15,7 +14,7 @@ main{
 nav{
   background-color: white;
   text-align: center;
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
   height: 50px;
   padding-top: 10px;
@@ -67,26 +66,25 @@ h4{
     margin: 0 auto;}
 
 p{
-    text-align: left;
-    padding-right: 25px;
-    padding-left: 10px;
+    text-align: center;
+    padding: 18px;
     margin: 0 auto;
     margin-top: 10px;
   }
 
 #headerBot{
   background-color: #e6e6ff;
-  width: 80%;
+  width: 75%;
   height: 200px;
   margin: 0 auto;}
 
 footer{
   background-color:#e6e6ff;
   text-align: center;
-  width: 80%;
+  width: 75%;
   height: 80px;
   margin: 0 auto;
-  padding: 10px;}
+}
 
 address{
   font-size: 16px;
@@ -95,48 +93,30 @@ address{
   padding-top: 25px;}
 
   .columns{
-    column align-items: center;
-    width: 232px;
-    height: 360px;
-    background-color: white;
-    display: inline-block;
-    margin-right: 15px;
+    align-items: center;
+    height: auto;
+    display:inline-block;
     margin: 0 auto;
   }
-
-  #box3{
-  background-color: #e6ffff;
-  width: 940px;
-  height: 420px;
-  padding: 10px;
-  margin-right:20px;
-  margin: 0 auto;
-  margin-top: -10px;
-  border-radius: 10px;
-  }
-
-
 
 #box1 {
 height: 0 auto;
 margin: 0 auto;
 text-align: center;
-background: #e6ffff;
+background: #e6e6ff;
 font-weight: lighter ;
 color: black;
 text-align: center;
 font-size: 18px;
 font-family: times;
-padding: 25px; }
 
-
-
-
+width: 75%;
+ }
 
 
 img{
-  padding: 10px;
-  float: left;}
+  padding-left: 10px;
+  padding-right: 10px;}
 
 a, u {
     text-decoration: none;
@@ -150,3 +130,17 @@ a:visited{
 
 a:hover{
   color: pink;}
+
+  #col1, #col2, #col3{
+  background-color: white;
+  height:auto;
+}
+
+  #grid2{
+    display: grid;
+    grid-template-areas: "col1 col2 col3";
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+    margin: auto;
+    width: 75%;
+}
