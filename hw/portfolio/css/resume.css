@@ -1,4 +1,20 @@
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section { margin-bottom: 10em; }
+
+#container {
+	width: 900px;
+	margin:50px auto 200px;
+	padding:50px;
+	background:#fff;
+}
+
+
 header{
   height: 250px;
   margin: 0 auto;
@@ -7,20 +23,18 @@ text-align: center;}
 main{
     background-color: white;
     height: 600px;
-    align-items: center;
-    width: 75%;
     margin:auto;
     text-decoration color: black;
     margin: 0 auto;}
 
-    nav{
-      background-color: white;
-      text-align: center;
-      width: 75%;
-      margin: 0 auto;
-      height: 50px;
-      padding-top: 20px;
-      margin-bottom: 5px;}
+nav{
+  background-color: white;
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+  height: 50px;
+  padding-top: 20px;
+  margin-bottom: 5px;}
 
 nav ul{
   margin: 0 auto;
@@ -55,22 +69,22 @@ h2 {
     font-family: times;}
 
 h3{
-    margin-left: 35px;
-    margin-right: 35px;
-    color: black;
-    font-size: 15px;}
+  font-weight: lighter ;
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  font-family: times;}
 
-h4{
-    font-size: 15px;
+p{
     text-align: center;
-    color: black;
-    margin: 0 auto;}
-
-p{ text-align: center;
-    margin-bottom: 15px;
+    padding: 18px;
+    padding-bottom: 15px;
     margin: 0 auto;
-    margin-top: 10px;
-  }
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: times;
+    margin-bottom:1.5em;}
+
 
 #headerBot{
   background-color: #e6e6ff;
@@ -86,17 +100,31 @@ footer{
   margin: 0 auto;
 }
 
-
 address{
   font-size: 16px;
   text-align:center;
   margin: 0 auto;
   padding-top: 25px;}
 
-img{
-  align-items: center;}
+#box1 {
+height: 0 auto;
+margin: 0 auto;
+text-align: center;
+background: white;
+font-weight: lighter ;
+color: black;
+text-align: center;
+font-size: 18px;
+font-family: times;
+width: 75%;
+margin-bottom: 5px;
+padding-left: 10px;}
 
-a, u {
+img{
+  padding-right: 10px;
+  float: left;}
+
+a {
     text-decoration: none;
     font-size: 14px;}
 
@@ -108,3 +136,15 @@ a:visited{
 
 a:hover{
   color: pink;}
+
+
+#box2 {
+height: auto;
+width: 74%;
+padding: -5px;
+border: solid #cce6ff 7px;
+border-radius: 2px;
+background: white;
+margin: 0 auto;
+border-style: double;
+}

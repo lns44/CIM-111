@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title> How To Prepare lobster </title>
+
+  <meta name="description" content="Step-by-step instructions about how to cook a lobster tail">
+  <meta name="author" content="Lauren Stolz">
+
+  <meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen"></link>
+
+	<style type="text/css" media="screen">
+  </style>
+
+
+
+</head>
+
+<body>
+
+  <div id="container">
+    <header>
+			<h1> How to Prepare A Lobster Tail</h1>
+			<h3 align="center"> Welcome to my step-by-step guide on how to prepare a Spiny Lobster tail! </h3>
+    </header>
+<br>
+
+	<section id='step1'>
+	<h2>Step 1: </h2>
+<br>
+  <img src="boil.jpg"class="center"; width="200";>
+  <h4 id="info1"> Mouse over to see instructions</h4>
+  <div id="recepticle1"> </div>
+  </section>
+
+   <section id='step2'>
+    <h2>Step 2: </h2>
+    <br>
+    <img src="salt.JPG" class="center"; width="200"; >
+    <h4 id="info2"> Mouse over to see instructions</h4>
+    <div id="recepticle2"> </div>
+    </section>
+
+    <section id='step3'>
+      <h2>Step 3: </h2>
+<br>
+    <img src="add.JPG" class="center"; width="200";>
+    <h4 id="info3"> Mouse over to see instructions</h4>
+    <div id="recepticle3"> </div>
+</section>
+
+    <section id='step4'>
+    <h2>Step 4: </h2>
+<br>
+    <img src="strain.JPG" class="center"; width="200";>
+    <h4 id="info4"> Mouse over to see instructions</h4>
+    <div id="recepticle4"> </div>
+</section>
+
+      <section id='step5'>
+      <h2>Step 5: </h2>
+<br>
+      <img src="ice.JPG"class="center"; width="200"; >
+      <h4 id="info5"> Mouse over to see instructions</h4>
+      <div id="recepticle5"> </div>
+</section>
+
+<section id='step6'>
+        <h2>Step 6: </h2>
+<br>
+       <img src="final.PNG"class="center"; width="200";>
+        <h4 id="info6"> Mouse over to see instructions</h4>
+        <div id="recepticle6"> </div>
+</section>
+
+    <button id="showr">Hide</button>
+    <button id="hidr"> Reveal </button>
+  <div2> Stay tuned for new recpies coming soon!! </div2>
+<br> <br> <br>
+
+<h3 id="changeText"> Click here to change the background red like a lobster!</h3>
+
+</section>
+
+
+<script src="jquery/jquery-3.3.1.min.js"></script>
+
+
+<script>
+$(document).ready(function(){
+$("#info1").mouseenter(function(){
+  $("#recepticle1").html("<b> 1) First, you are going to want to get a large pot, fill it up with water, and bring it to a boil </b>");
+  $("#info1").css("background-color", "#ccb3ff");
+});
+$("#info1").mouseleave(function(){
+  $("#recepticle1").html("");
+  $("#info1").css("background-color", "transparent");
+});
+$("#info2").mouseenter(function(){
+  $("#recepticle2").html("<b> 2) Secondly, you are going to want to reduce heat to a soft boil and add Maine sea salt. </b>");
+  $("#info2").css("background-color", "#ccb3ff");
+});
+$("#info2").mouseleave(function(){
+  $("#recepticle2").html("");
+  $("#info2").css("background-color", "transparent");
+});
+$("#info3").mouseenter(function(){
+  $("#recepticle3").html("<b> 3) Next, drop the tails in one at a time and set your kitchen timer for 3 mins for each tail you have</b>");
+  $("#info3").css("background-color", "#ccb3ff");
+});
+$("#info3").mouseleave(function(){
+  $("#recepticle3").html("");
+  $("#info3").css("background-color", "transparent");
+});
+$("#info4").mouseenter(function(){
+  $("#recepticle4").html("<b> 4) Next, use metal tongs, gloves, or a strainer to get the hot tails out of the boiling water. </b>");
+  $("#info4").css("background-color", "#ccb3ff");
+});
+$("#info4").mouseleave(function(){
+  $("#recepticle4").html("");
+  $("#info4").css("background-color", "transparent");
+});
+$("#info5").mouseenter(function(){
+  $("#recepticle5").html("<b> 5) Next, cool the cooked lobster tails right away with fresh water and ice to keep them from over cooking. </b>");
+  $("#info5").css("background-color", "#ccb3ff");
+});
+$("#info5").mouseleave(function(){
+  $("#recepticle5").html("");
+  $("#info5").css("background-color", "transparent");
+});
+$("#info6").mouseenter(function(){
+  $("#recepticle6").html("<b> 6) Serve and enjoy! </b>");
+  $("#info6").css("background-color", "#ccb3ff");
+});
+$("#info6").mouseleave(function(){
+  $("#recepticle6").html("");
+  $("#info6").css("background-color", "transparent");
+});
+  $("h1").css("color", "purple");
+  $("#changeText").css("font-size", "30px");
+  $("#changeText").html("Click here to turn the background red like a lobster!");
+  $("#changeText").click(function(){
+  $("body").css("background-color","red");
+});
+  $( "#showr" ).click(function() {
+  $( "div2" ).first().hide( "fast", function showNext() {
+  $( this ).next( "div2" ).hide( "fast", showNext );
+  });
+});
+  $( "#hidr").click(function() {
+  $( "div2").show(1000);
+          });
+        });
+  </script>
+
+</body>
+</html>

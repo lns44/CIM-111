@@ -1,5 +1,5 @@
 .tps-section {
-  width: 100%;
+  width: 75%;
   height: 500px;
   -webkit-perspective: 10em;
   -moz-perspective: 10em;
@@ -22,7 +22,6 @@
   -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
-
 
 .tps-wrapper {
   float:left;
