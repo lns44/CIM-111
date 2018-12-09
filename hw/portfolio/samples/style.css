@@ -128,17 +128,3 @@ a:visited{
 
 a:hover{
   color: pink;}
-
-   #col2, #col3{
-  background-color: white;
-  height:auto;}
-
-  #grid2{
-    display: grid;
-    grid-template-areas: "col1 col2 col3";
-    grid-template-columns: 32% 32% 32%;
-    text-align: center;
-    margin: auto;
-    width: 75%;
-
-}
