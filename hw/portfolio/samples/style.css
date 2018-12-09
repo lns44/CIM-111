@@ -67,7 +67,8 @@ h4{
 
 p{
     text-align: center;
-    padding: 18px;
+    width: 75%;
+    margin-bottom: 15px;
     margin: 0 auto;
     margin-top: 10px;
   }
