@@ -103,7 +103,6 @@ address{
 height: 0 auto;
 margin: 0 auto;
 text-align: center;
-background: #e6e6ff;
 font-weight: lighter ;
 color: black;
 text-align: center;
@@ -137,7 +136,7 @@ a:hover{
   #grid2{
     display: grid;
     grid-template-areas: "col1 col2 col3";
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 32% 32% 32%;
     text-align: center;
     margin: auto;
     width: 75%;
