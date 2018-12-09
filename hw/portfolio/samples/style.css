@@ -11,14 +11,14 @@ main{
     text-decoration color: black;
     margin: 0 auto;}
 
-nav{
-  background-color: white;
-  text-align: center;
-  width: 75%;
-  margin: 0 auto;
-  height: 50px;
-  padding-top: 20px;
-  margin-bottom: 5px;}
+    nav{
+      background-color: white;
+      text-align: center;
+      width: 75%;
+      margin: 0 auto;
+      height: 50px;
+      padding-top: 20px;
+      margin-bottom: 5px;}
 
 nav ul{
   margin: 0 auto;
@@ -108,8 +108,7 @@ color: black;
 text-align: center;
 font-size: 18px;
 font-family: times;
-width: 75%;
- }
+width: 75%;}
 
 
 img{
