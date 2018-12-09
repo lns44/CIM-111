@@ -7,6 +7,8 @@ text-align: center;}
 main{
     background-color: white;
     height: 600px;
+    align-items: center;
+    width: 75%;
     margin:auto;
     text-decoration color: black;
     margin: 0 auto;}
@@ -65,9 +67,7 @@ h4{
     padding-top: 10px;
     margin: 0 auto;}
 
-p{
-    text-align: center;
-    width: 75%;
+p{ text-align: center;
     margin-bottom: 15px;
     margin: 0 auto;
     margin-top: 10px;
@@ -93,28 +93,8 @@ address{
   margin: 0 auto;
   padding-top: 25px;}
 
-  .columns{
-    align-items: center;
-    height: auto;
-    display:inline-block;
-    margin: 0 auto;
-  }
-
-#box1 {
-height: 0 auto;
-margin: 0 auto;
-text-align: center;
-font-weight: lighter ;
-color: black;
-text-align: center;
-font-size: 18px;
-font-family: times;
-width: 75%;}
-
-
 img{
-  padding-left: 10px;
-  padding-right: 10px;}
+  align-items: center;}
 
 a, u {
     text-decoration: none;
