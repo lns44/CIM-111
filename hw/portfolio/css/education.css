@@ -59,12 +59,23 @@ h3{
   font-size: 18px;
   font-family: times;}
 
-p{
-    text-align: center;
-    padding: 18px;
+
+  h4{
+    text-align: left;
     padding-bottom: 15px;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: times;
+    font-weight: lighter;
+    padding-top: 15px;
+  }
+
+p{
+    text-align: left;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    margin-top: 20px;
     font-size: 16px;
     font-family: times;
     width: 75%;
@@ -139,4 +150,13 @@ border-radius: 2px;
 background: white;
 margin: 0 auto;
 border-style: double;
+align-items: center;
+}
+
+div { text-align: center; }
+ul { display: inline-block; text-align: left; }
+
+ul li{
+  list-style: square;
+  align-items: center;
 }
