@@ -84,6 +84,8 @@ footer{
   width: 75%;
   height: 80px;
   margin: 0 auto;
+  margin-top: 100%;
+  align-self: baseline;
 }
 
 
