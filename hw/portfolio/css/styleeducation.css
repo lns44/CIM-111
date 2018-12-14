@@ -1,0 +1,13 @@
+@import "education.css";
+
+header{
+  height: auto;
+}
+nav {
+  height: auto;
+}
+
+nav ul li{
+  display: block;
+  margin-bottom: 5px;
+}

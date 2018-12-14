@@ -120,16 +120,7 @@ address{
     margin: 0 auto;
   }
 
-  #box2 {
-  height: auto;
-  width: 74%;
-  padding: -5px;
-  border: solid #cce6ff 7px;
-  border-radius: 2px;
-  background: white;
-  margin: 0 auto;
-  border-style: double;
-  }
+
 
 img{
   padding-left: 20px;

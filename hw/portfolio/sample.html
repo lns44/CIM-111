@@ -13,19 +13,23 @@
 			<meta content="http://www.thepetedesign.com/demos/tiltedpage_scroll_demo.html" property="og:url" />
 			<meta content="http://www.thepetedesign.com/images/tiltedpage_scroll_image.png" property="og:image" />
 			<link rel="shortcut icon" id="favicon" href="favicon.png">
-	<link href='tiltedpage_scroll.css' rel='stylesheet' type='text/css'>
-			<link rel="stylesheet" href="style.css" media="only screen and (min-width: 599px)">
+			<link rel="stylesheet" href="css/sample.css" media="only screen and (min-width: 750px)">
+			<link rel="stylesheet" href="css/samplemobile.css" media="only screen and (max-width: 750px)">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 			<meta name="author" content="Lauren">
 			<link rel="canonical" href="http://www.thepetedesign.com/demos/tiltedpage_scroll_demo.html" />
 				<script src="jquery-3.3.1.min.js"> </script>
 				<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
 				<script type="text/javascript" src="jquery.tiltedpage_scroll.js"></script>
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-			  <style>
-	.wrapper {
+
+
+<style>
+
+.wrapper {
 	height: auto !important;
 	height: 100%;
 	margin: 0 auto;
@@ -112,11 +116,16 @@ align-items: center;
 					letter-spacing: -1px;}
 
 					h1 {
-						width: 75%;}
+						width: 75%;
+					}
 
 					.main {
 			      margin-bottom: 350px;
 			      overflow: hidden;}
+
+						.shift{
+							margin-left: 60px;
+						}
 	</style>
 
 			<script>
@@ -144,7 +153,7 @@ align-items: center;
 	            <li><a href="index.html"> HOME </a></li>
 							<li><a href="education.html"> EDUCATION </a> </li>
 	            <li><a href="experience.html"> EXPERIENCE </a> </li>
-	            <li><a href="samples/sample.html"> MY WORK </a></li>
+	            <li><a href="sample.html"> MY WORK </a></li>
 	            <li><a href="recommendations.html"> RECOMMENDATIONS </a> </li>
 	            </ul>
 	    </nav>
@@ -174,7 +183,8 @@ align-items: center;
 </div>
 			<section class="page1">
 				<div class="page_container">
-			<h1> <img src="demo1.jpg"> <h1> </div> </section>
+					<h1> <img class="shift" src="demo1.jpg"> </h1> </div>
+				</section>
 						<br> <br> <br>
 		<h4> Photoshop Travel Flyer Assignment: Singapore </h4>
 
@@ -184,7 +194,7 @@ align-items: center;
 
   	  <section class="page2">
         <div class="page_container">
-          <h1> <img src="demo2.jpg"> </h1> </div> </section>
+          <h1> <img class="shift" src="demo2.jpg"> </h1> </div> </section>
 						<br> <br> <br>
 		<h4> Photoshop Travel Flyer Assignment: Shanghai </h4>
  <br>
@@ -200,11 +210,10 @@ align-items: center;
 
 
 
-<br>
-<br>
+
 </main>
-<br>
-<br> <br>
+
+
 <footer>
 <address>
 Contact Information: 262-327-2733, lns44@miami.edu <br> Address: 1101 Stanford Dr,  33146,  Miami, FL
