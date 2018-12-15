@@ -12,7 +12,13 @@ nav ul li{
   margin-bottom: 5px;
 }
 
-
+h2{
+  font-size: 17px;
+  margin-top: -5px;
+}
+img{
+  margin-bottom: -90px;
+}
 #grid2{
   display: grid;
   grid-template-areas: "col1 col2 col3";
@@ -21,15 +27,5 @@ nav ul li{
   text-align: center;
   margin: 0 auto;
   width: 80%;
-}
-
-footer{
-  background-color:#e6e6ff;
-  text-align: center;
-  width: 75%;
-  height: 80px;
-  margin: 0 auto;
-  margin-top: 90%;
-  align-self: baseline;
-
+  margin-bottom: -30px;
 }
