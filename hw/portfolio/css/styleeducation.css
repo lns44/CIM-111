@@ -12,6 +12,13 @@ nav ul li{
   margin-bottom: 5px;
 }
 
-p{
-  margin-bottom: -40px;
+h4{
+  margin-bottom: -190px;
 }
+
+p{
+    margin-bottom: -190px;
+}
+
+#box1 {
+height: 300px;}
