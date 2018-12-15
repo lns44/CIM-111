@@ -22,3 +22,14 @@ nav ul li{
   margin: 0 auto;
   width: 80%;
 }
+
+footer{
+  background-color:#e6e6ff;
+  text-align: center;
+  width: 75%;
+  height: 80px;
+  margin: 0 auto;
+  margin-top: 90%;
+  align-self: baseline;
+
+}
