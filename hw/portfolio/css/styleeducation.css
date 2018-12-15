@@ -11,3 +11,7 @@ nav ul li{
   display: block;
   margin-bottom: 5px;
 }
+
+p{
+  margin-bottom: -40px;
+}
