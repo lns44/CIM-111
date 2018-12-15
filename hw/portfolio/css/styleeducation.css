@@ -13,12 +13,17 @@ nav ul li{
 }
 
 h4{
-  margin-bottom: -190px;
+  margin-bottom: -10px;
 }
 
-p{
-    margin-bottom: -190px;
-}
 
 #box1 {
-height: 300px;}
+margin-bottom: -100px;}
+
+#box2{
+  margin-bottom: 50px;
+}
+
+main{
+  margin-bottom: -100px;
+}
