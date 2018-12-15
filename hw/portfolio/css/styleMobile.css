@@ -29,3 +29,13 @@ img{
   width: 80%;
   margin-bottom: -30px;
 }
+
+footer{
+  background-color:#e6e6ff;
+  text-align: center;
+  width: 75%;
+  height: 80px;
+  margin: 0 auto;
+  align-self: baseline;
+margin-top: 50px;
+}
